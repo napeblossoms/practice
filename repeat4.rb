@@ -1,19 +1,19 @@
-#for i in 0..4 do
-#  if i == 3
-#    break
-#  end
-#  puts i
-#end
+for i in 0..4 do
+  if i == 3
+    break
+  end
+  puts i
+end
 
 
-#num = [2,4,6,8,10]
-#sum = 0
+num = [2,4,6,8,10]
+sum = 0
 
-#for i in num
-#  sum += i
-#end
+for i in num
+  sum += i
+end
 
-#puts sum
+puts sum
 
 for i in 1..10 do
   if i == 3
