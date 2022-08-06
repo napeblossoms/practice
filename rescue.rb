@@ -16,3 +16,9 @@ div(7, 3)
 
 puts "> div(9, 0)"
 div(9, 0)
+
+#eql?　同値性を比較する
+milk = "milk"
+
+puts milk.eql?("milk") # >>true
+puts milk.eql?("coffee") # >>false
