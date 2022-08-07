@@ -22,3 +22,9 @@ milk = "milk"
 
 puts milk.eql?("milk") # >>true
 puts milk.eql?("coffee") # >>false
+
+
+# 配列に map を適用する
+a1 = [100, 200, 300]
+a2 = a1.map { |x| x * 2 }
+p a2 # [200, 400, 600]
