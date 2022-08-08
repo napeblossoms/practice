@@ -28,3 +28,10 @@ puts milk.eql?("coffee") # >>false
 a1 = [100, 200, 300]
 a2 = a1.map { |x| x * 2 }
 p a2 # [200, 400, 600]
+
+
+numbers = [1,2,3,4,5]
+puts numbers.inject{|result, item | result + item}
+
+numbers = [1,2,3,4,5]
+puts numbers.inject(100){|result, item | result + item} #初期値に100を設定
