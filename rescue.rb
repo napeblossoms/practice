@@ -35,3 +35,9 @@ puts numbers.inject{|result, item | result + item}
 
 numbers = [1,2,3,4,5]
 puts numbers.inject(100){|result, item | result + item} #初期値に100を設定
+
+
+list = ["a", "b", "c", "d"]
+for i in 0..3
+  print i+1,"番目の要素は",list[i],"です。\n" #改行
+end
