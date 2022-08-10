@@ -41,3 +41,12 @@ list = ["a", "b", "c", "d"]
 for i in 0..3
   print i+1,"番目の要素は",list[i],"です。\n" #改行
 end
+
+
+@foo = 'nao'
+
+name = 'nao'
+case name
+in ^@foo
+  puts 'found'
+end
